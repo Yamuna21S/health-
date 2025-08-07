@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Health & Wellness Tracker</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8f5;
+      padding: 20px;
+      max-width: 600px;
+      margin: auto;
+    }
+    h1 {
+      text-align: center;
+      color: #2e8b57;
+    }
+    .habit {
+      margin: 10px 0;
+    }
+    .mood-log {
+      margin-top: 20px;
+    }
+    textarea {
+      width: 100%;
+      height: 80px;
+      margin-top: 5px;
+    }
+    button {
+      background-color: #2e8b57;
+      color: white;
+      border: none;
+      padding: 10px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #246b45;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🌿 Health & Wellness🧑‍⚕️ Tracker</h1>
+
+  <form>
+    <div class="habit">
+      <input type="checkbox" id="water">
+      <label for="water">Drink 2L of Water</label>
+    </div>
+    <div class="habit">
+      <input type="checkbox" id="exercise">
+      <label for="exercise">Exercise for 30 Minutes</label>
+    </div>
+    <div class="habit">
+      <input type="checkbox" id="meditate">
+      <label for="meditate">Meditate for 10 Minutes</label>
+    </div>
+    <div class="habit">
+      <input type="checkbox" id="sleep">
+      <label for="sleep">Sleep 7+ Hours</label>
+    </div>
+
+    <div class="mood-log">
+      <label for="mood">📝 Mood & Journal Entry:</label>
+      <textarea id="mood" placeholder="How are you feeling today?"></textarea>
+    </div>
+
+    <button type="submit">Save Today's Log</button>
+  </form>
+
+</body>
+</html>
